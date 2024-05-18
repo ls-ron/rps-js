@@ -4,22 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RPS in JS</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="left">
-        <div class="question">
-            <a href="#"></a>
+    <div class="decision">
+        <div class="text">
+            Choose:
+        </div>
+        <div class="buttons">
+            <button id="rock">Rock</button>
+            <button id="paper">Paper</button> 
+            <button id="scissors">Scissors</button>
         </div>
     </div>
-    <div class="right">
-        <div class="answer">
-            <a href="#"></a>
+    <div class="middle">
+        <div class="left">
+            <img src="player.gif" alt="rock paper scissors gif" width="350">
+        </div>
+        <div class="right">
+            <img src="ai.gif" alt="rock paper scissors gif" width="350">
         </div>
     </div>
-    <div class="result">
-        Choose <button>Rock</button>, 
-        <button>Paper</button>, 
-        or <button>Scissors</button>
+    <div class="footer">
+        <div id="result"></div>
     </div>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
